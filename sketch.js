@@ -7,6 +7,7 @@ var computer = (playerOne === "X") ? "O" : "X"
 //there are 8 winningCombos: 
   //three rows, three columns, two diagonals
   //refactor below.... this is not DRY!
+  //Hello!! Not using DRY!!
   var blueWin1 = $("#one.blue, #two.blue, #three.blue").length === 3
   var blueWin2 = $("#four.blue, #five.blue, #six.blue").length === 3
   var blueWin3 = $("#seven.blue, #eight.blue, #nine.blue").length === 3
